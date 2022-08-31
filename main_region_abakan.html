@@ -1,0 +1,1447 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8" />
+        <title>Атомэнергосбыт</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap&subset=cyrillic" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/slick/slick.css" />
+        <link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css" />
+        <link rel="stylesheet" href="js/air-datepicker/datepicker.css" />
+
+        <meta name="viewport" content="width=device-width" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <!-- top -->
+            <div class="top">
+                <div class="container">
+
+                    <!-- top region -->
+                    <div class="top-region">
+                        <div class="top-region-link"><a href="#">Выберите регион</a></div>
+                        <div class="top-region-list">
+                            <ul>
+                                <li><a href="#">Центральный сайт АО “АтомЭнергоСбыт”</a></li>
+                                <li><a href="#">Курск</a></li>
+                                <li><a href="#">Тверь</a></li>
+                                <li><a href="#">Мурманск</a></li>
+                                <li><a href="#">Смоленск</a></li>
+                                <li class="active"><a href="#">Абакан</a></li>
+                            </ul>
+                        </div>
+                        <div class="top-region-confirm">
+                            <div class="top-region-confirm-title">Перейти в раздел региона:</div>
+                            <div class="top-region-confirm-value"><span>Абакан</span>?</div>
+                            <div class="top-region-confirm-ctrl">
+                                <div class="top-region-confirm-apply"><a href="#">Да</a></div>
+                                <div class="top-region-confirm-cancel"><a href="#">Выбрать другой</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- top region END -->
+
+                    <!-- top search -->
+                    <div class="top-search">
+                        <div class="top-search-link"><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4693 11.8796H13.1276L17.2859 16.0462L16.0443 17.2879L11.8776 13.1296V12.4712L11.6526 12.2379C10.7026 13.0546 9.46927 13.5462 8.1276 13.5462C5.13594 13.5462 2.71094 11.1212 2.71094 8.12956C2.71094 5.13789 5.13594 2.71289 8.1276 2.71289C11.1193 2.71289 13.5443 5.13789 13.5443 8.12956C13.5443 9.47122 13.0526 10.7046 12.2359 11.6546L12.4693 11.8796ZM4.37891 8.12952C4.37891 10.2045 6.05391 11.8795 8.12891 11.8795C10.2039 11.8795 11.8789 10.2045 11.8789 8.12952C11.8789 6.05452 10.2039 4.37952 8.12891 4.37952C6.05391 4.37952 4.37891 6.05452 4.37891 8.12952Z" /></svg></a></div>
+                    </div>
+                    <!-- top search END -->
+
+                    <div class="top-phone"><a href="tel:+79876543210">+7 987 654 32 10</a></div>
+
+                    <div class="top-menu">
+                        <ul>
+                            <li><a href="#">Раскрытие информации</a></li>
+                            <li><a href="#">Интернет-магазин</a></li>
+                            <li><a href="#">Обратная связь</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!-- top END -->
+
+            <div class="top-search-window">
+                <div class="container">
+                    <form action="#" method="post">
+                        <div class="top-search-window-input"><input type="text" name="search" value="" class="required" placeholder="Поиск" /></div>
+                        <div class="top-search-window-submit"><button><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M9.75833 9.16667H10.4167L14.575 13.3333L13.3333 14.575L9.16667 10.4167V9.75833L8.94167 9.525C7.99167 10.3417 6.75833 10.8333 5.41667 10.8333C2.425 10.8333 0 8.40833 0 5.41667C0 2.425 2.425 0 5.41667 0C8.40833 0 10.8333 2.425 10.8333 5.41667C10.8333 6.75833 10.3417 7.99167 9.525 8.94167L9.75833 9.16667ZM1.66797 5.41663C1.66797 7.49163 3.34297 9.16663 5.41797 9.16663C7.49297 9.16663 9.16797 7.49163 9.16797 5.41663C9.16797 3.34163 7.49297 1.66663 5.41797 1.66663C3.34297 1.66663 1.66797 3.34163 1.66797 5.41663Z" /></svg></button></div>
+                        <div class="top-search-window-close"><a href="#"></a></div>
+                    </form>
+                </div>
+            </div>
+
+            <header>
+                <div class="container">
+                    <div class="logo"><a href="#"><img src="images/logo-regional.png" alt="" /></a></div>
+
+                    <div class="header-menu">
+                        <div class="header-menu-link"><a href="#"><div class="header-menu-link-icon"></div>Меню</a></div>
+                        <div class="header-menu-content">
+                            <ul>
+                                <li><a href="#">Частным лицам</a></li>
+                                <li><a href="#">Бизнесу</a></li>
+                                <li><a href="#">О компании</a></li>
+                                <li><a href="#">Региональный проект</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="header-btn"><a href="windows/cabinet-kursk.html" class="window-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 3C14 2.44772 14.4477 2 15 2H19C19.7956 2 20.5587 2.31607 21.1213 2.87868C21.6839 3.44129 22 4.20435 22 5V19C22 19.7957 21.6839 20.5587 21.1213 21.1213C20.5587 21.6839 19.7957 22 19 22H15C14.4477 22 14 21.5523 14 21C14 20.4477 14.4477 20 15 20H19C19.2652 20 19.5196 19.8946 19.7071 19.7071C19.8946 19.5196 20 19.2652 20 19V5C20 4.73478 19.8946 4.48043 19.7071 4.29289C19.5196 4.10536 19.2652 4 19 4H15C14.4477 4 14 3.55228 14 3Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 6.29289C9.68342 5.90237 10.3166 5.90237 10.7071 6.29289L15.7071 11.2929C16.0976 11.6834 16.0976 12.3166 15.7071 12.7071L10.7071 17.7071C10.3166 18.0976 9.68342 18.0976 9.29289 17.7071C8.90237 17.3166 8.90237 16.6834 9.29289 16.2929L13.5858 12L9.29289 7.70711C8.90237 7.31658 8.90237 6.68342 9.29289 6.29289Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 11.4477 2.44772 11 3 11H15C15.5523 11 16 11.4477 16 12C16 12.5523 15.5523 13 15 13H3C2.44772 13 2 12.5523 2 12Z" /></svg>Личный кабинет</a></div>
+                </div>
+            </header>
+
+            <!-- menu -->
+            <div class="menu">
+                <div class="menu-container">
+                    <div class="container">
+                        <div class="menu-header">
+                            <ul>
+                                <li><a href="#">Центральный аппарат<br /> Атомэнергосбыт</a></li>
+                                <li><a href="#">Курск<br /> Атомэнергосбыт</a></li>
+                                <li><a href="#">Смоленск<br /> Атомэнергосбыт</a></li>
+                                <li><a href="#">Тверь<br /> Атомэнергосбыт</a></li>
+                                <li><a href="#">Колатомэнергосбыт<br /> (Мурманск)</a></li>
+                                <li class="active"><a href="#">Абакан<br /> Атомэнергосбыт</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu-header-notice">Выберите регион для информации о тарифах, услугах и сервисах</div>
+
+                        <div class="menu-tabs">
+                            <div class="menu-tab">
+                                <ul>
+                                    <li>
+                                        <a href="#">О компании</a>
+                                        <ul>
+                                            <li><a href="#">Общая информация</a></li>
+                                            <li><a href="#">Руководство</a></li>
+                                            <li><a href="#">Акционерам и инвесторам</a></li>
+                                            <li><a href="#">Поставщикам</a></li>
+                                            <li><a href="#">Раскрытие информации</a></li>
+                                            <li><a href="#">Противодействие коррупции</a></li>
+                                            <li><a href="#">Стандарты обслуживания</a></li>
+                                            <li><a href="#">Кадровая политика</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Журналистам</a>
+                                        <ul>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Видеогалерея</a></li>
+                                            <li><a href="#">Фотогалерея</a></li>
+                                            <li><a href="#">Журнал</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Раскрытие информации</a>
+                                        <ul>
+                                            <li><a href="#">Курск</a></li>
+                                            <li><a href="#">Мурманск</a></li>
+                                            <li><a href="#">Смоленск</a></li>
+                                            <li><a href="#">Тверь</a></li>
+                                            <li><a href="#">Абакан</a></li>
+                                            <li><a href="#">Лицензирование</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Личный кабинет</a>
+                                        <ul>
+                                            <li><a href="#">Курск</a></li>
+                                            <li><a href="#">Мурманск</a></li>
+                                            <li><a href="#">Смоленск</a></li>
+                                            <li><a href="#">Тверь</a></li>
+                                            <li><a href="#">Абакан</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul class="menu-center-last">
+                                    <li><a href="#">Сервисы</a></li>
+                                    <li><a href="#">Проекты</a></li>
+                                    <li><a href="#">Цифровизация</a></li>
+                                </ul>
+
+                            </div>
+
+                            <div class="menu-tab">
+                                <ul>
+                                    <li>
+                                        <a href="#">О филиале</a>
+                                        <ul>
+                                            <li><a href="#">Общая информация</a></li>
+                                            <li><a href="#">Руководство</a></li>
+                                            <li><a href="#">Банковские реквизиты</a></li>
+                                            <li><a href="#">Раскрытие информации</a></li>
+                                            <li><a href="#">Противодействие коррупции</a></li>
+                                            <li><a href="#">Стандарты обслуживания</a></li>
+                                            <li><a href="#">Кадровая политика</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Частным лицам</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li>Формы договоров</li>
+                                            <li>Нормативные документы</li>
+                                            <li>Согласие на обработку персональных данных</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Бизнесу</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li>Формы договоров</li>
+                                            <li>Нормативные документы</li>
+                                            <li>Информация об изменениях в законодательстве</li>
+                                            <li>Электронный документооборот</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Журналистам</a>
+                                        <ul>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Видеогалерея</a></li>
+                                            <li><a href="#">Фотогалерея</a></li>
+                                            <li><a href="#">Журнал</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Региональный проект</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="menu-tab">
+                                <ul>
+                                    <li>
+                                        <a href="#">О филиале</a>
+                                        <ul>
+                                            <li><a href="#">Общая информация</a></li>
+                                            <li><a href="#">Руководство</a></li>
+                                            <li><a href="#">Банковские реквизиты</a></li>
+                                            <li><a href="#">Раскрытие информации</a></li>
+                                            <li><a href="#">Противодействие коррупции</a></li>
+                                            <li><a href="#">Стандарты обслуживания</a></li>
+                                            <li><a href="#">Кадровая политика</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Частным лицам</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li><a href="#">Формы договоров</a></li>
+                                            <li><a href="#">Нормативные документы</a></li>
+                                            <li><a href="#">Согласие на обработку персональных данных</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Бизнесу</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li><a href="#">Формы договоров</a></li>
+                                            <li><a href="#">Нормативные документы</a></li>
+                                            <li><a href="#">Информация об изменениях в законодательстве</a></li>
+                                            <li><a href="#">Электронный документооборот</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Журналистам</a>
+                                        <ul>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Видеогалерея</a></li>
+                                            <li><a href="#">Фотогалерея</a></li>
+                                            <li><a href="#">Журнал</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Региональный проект</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="menu-tab">
+                                <ul>
+                                    <li>
+                                        <a href="#">О филиале</a>
+                                        <ul>
+                                            <li><a href="#">Общая информация</a></li>
+                                            <li><a href="#">Руководство</a></li>
+                                            <li><a href="#">Банковские реквизиты</a></li>
+                                            <li><a href="#">Раскрытие информации</a></li>
+                                            <li><a href="#">Противодействие коррупции</a></li>
+                                            <li><a href="#">Стандарты обслуживания</a></li>
+                                            <li><a href="#">Кадровая политика</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Частным лицам</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li>Формы договоров</li>
+                                            <li>Нормативные документы</li>
+                                            <li>Согласие на обработку персональных данных</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Бизнесу</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li><a href="#">Формы договоров</a></li>
+                                            <li><a href="#">Нормативные документы</a></li>
+                                            <li><a href="#">Информация об изменениях в законодательстве</a></li>
+                                            <li><a href="#">Электронный документооборот</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Журналистам</a>
+                                        <ul>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Видеогалерея</a></li>
+                                            <li><a href="#">Фотогалерея</a></li>
+                                            <li><a href="#">Журнал</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Региональный проект</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="menu-tab">
+                                <ul>
+                                    <li>
+                                        <a href="#">О филиале</a>
+                                        <ul>
+                                            <li><a href="#">Общая информация</a></li>
+                                            <li><a href="#">Руководство</a></li>
+                                            <li><a href="#">Банковские реквизиты</a></li>
+                                            <li><a href="#">Раскрытие информации</a></li>
+                                            <li><a href="#">Противодействие коррупции</a></li>
+                                            <li><a href="#">Стандарты обслуживания</a></li>
+                                            <li><a href="#">Кадровая политика</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Частным лицам</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li>Формы договоров</li>
+                                            <li>Нормативные документы</li>
+                                            <li>Согласие на обработку персональных данных</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Бизнесу</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li><a href="#">Формы договоров</a></li>
+                                            <li><a href="#">Нормативные документы</a></li>
+                                            <li><a href="#">Информация об изменениях в законодательстве</a></li>
+                                            <li><a href="#">Электронный документооборот</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Журналистам</a>
+                                        <ul>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Видеогалерея</a></li>
+                                            <li><a href="#">Фотогалерея</a></li>
+                                            <li><a href="#">Журнал</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Региональный проект</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="menu-tab active">
+                                <ul>
+                                    <li>
+                                        <a href="#">О филиале</a>
+                                        <ul>
+                                            <li><a href="#">Общая информация</a></li>
+                                            <li><a href="#">Руководство</a></li>
+                                            <li><a href="#">Банковские реквизиты</a></li>
+                                            <li><a href="#">Раскрытие информации</a></li>
+                                            <li><a href="#">Противодействие коррупции</a></li>
+                                            <li><a href="#">Стандарты обслуживания</a></li>
+                                            <li><a href="#">Кадровая политика</a></li>
+                                            <li><a href="#">Контакты</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Частным лицам</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li><a href="#">Формы договоров</a></li>
+                                            <li><a href="#">Нормативные документы</a></li>
+                                            <li><a href="#">Согласие на обработку персональных данных</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Бизнесу</a>
+                                        <ul>
+                                            <li><a href="#">Тарифы</a></li>
+                                            <li><a href="#">Товары и услуги</a></li>
+                                            <li><a href="#">Вопросы и ответы</a></li>
+                                            <li>Формы договоров</li>
+                                            <li>Нормативные документы</li>
+                                            <li>Информация об изменениях в законодательстве</li>
+                                            <li>Электронный документооборот</li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <ul>
+                                    <li>
+                                        <a href="#">Журналистам</a>
+                                        <ul>
+                                            <li><a href="#">Новости</a></li>
+                                            <li><a href="#">Видеогалерея</a></li>
+                                            <li><a href="#">Фотогалерея</a></li>
+                                            <li><a href="#">Журнал</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Региональный проект</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="#" class="menu-close"></a>
+                    </div>
+                </div>
+            </div>
+            <!-- menu END -->
+
+            <!-- mobile menu -->
+            <div class="mobile-menu">
+                <div class="mobile-menu-header">
+                    <div class="logo"><a href="#"><img src="images/logo-regional.png" alt="" /></a></div>
+                    <a href="#" class="mobile-menu-close"></a>
+                </div>
+
+                <div class="mobile-menu-subheader">
+                    <div class="mobile-menu-region"><a href="#">Выберите регион</a></div>
+                    <div class="mobile-menu-search"><a href="#"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12.4693 11.8796H13.1276L17.2859 16.0462L16.0443 17.2879L11.8776 13.1296V12.4712L11.6526 12.2379C10.7026 13.0546 9.46927 13.5462 8.1276 13.5462C5.13594 13.5462 2.71094 11.1212 2.71094 8.12956C2.71094 5.13789 5.13594 2.71289 8.1276 2.71289C11.1193 2.71289 13.5443 5.13789 13.5443 8.12956C13.5443 9.47122 13.0526 10.7046 12.2359 11.6546L12.4693 11.8796ZM4.37891 8.12952C4.37891 10.2045 6.05391 11.8795 8.12891 11.8795C10.2039 11.8795 11.8789 10.2045 11.8789 8.12952C11.8789 6.05452 10.2039 4.37952 8.12891 4.37952C6.05391 4.37952 4.37891 6.05452 4.37891 8.12952Z" /></svg></a></div>
+                </div>
+
+                <div class="header-btn"><a href="windows/cabinet.html" class="window-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 3C14 2.44772 14.4477 2 15 2H19C19.7956 2 20.5587 2.31607 21.1213 2.87868C21.6839 3.44129 22 4.20435 22 5V19C22 19.7957 21.6839 20.5587 21.1213 21.1213C20.5587 21.6839 19.7957 22 19 22H15C14.4477 22 14 21.5523 14 21C14 20.4477 14.4477 20 15 20H19C19.2652 20 19.5196 19.8946 19.7071 19.7071C19.8946 19.5196 20 19.2652 20 19V5C20 4.73478 19.8946 4.48043 19.7071 4.29289C19.5196 4.10536 19.2652 4 19 4H15C14.4477 4 14 3.55228 14 3Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M9.29289 6.29289C9.68342 5.90237 10.3166 5.90237 10.7071 6.29289L15.7071 11.2929C16.0976 11.6834 16.0976 12.3166 15.7071 12.7071L10.7071 17.7071C10.3166 18.0976 9.68342 18.0976 9.29289 17.7071C8.90237 17.3166 8.90237 16.6834 9.29289 16.2929L13.5858 12L9.29289 7.70711C8.90237 7.31658 8.90237 6.68342 9.29289 6.29289Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M2 12C2 11.4477 2.44772 11 3 11H15C15.5523 11 16 11.4477 16 12C16 12.5523 15.5523 13 15 13H3C2.44772 13 2 12.5523 2 12Z" /></svg>Личный кабинет</a></div>
+
+                <div class="mobile-menu-content">
+                    <ul>
+                        <li>
+                            <a href="#">О филиале</a>
+                            <ul>
+                                <li><a href="#">Общая информация</a></li>
+                                <li><a href="#">Руководство</a></li>
+                                <li><a href="#">Банковские реквизиты</a></li>
+                                <li><a href="#">Раскрытие информации</a></li>
+                                <li><a href="#">Противодействие коррупции</a></li>
+                                <li><a href="#">Стандарты обслуживания</a></li>
+                                <li><a href="#">Кадровая политика</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Частным лицам</a>
+                            <ul>
+                                <li><a href="#">Тарифы</a></li>
+                                <li>
+                                    <a href="#">Товары и услуги</a>
+                                    <ul>
+                                        <li><a href="#">Продажа и замена приборов учета</a></li>
+                                        <li>
+                                            <a href="#">Продажа электротехнической продукции</a>
+                                            <ul>
+                                                <li><a href="#">Тепловизионное обследование</a></li>
+                                                <li><a href="#">Услуги электротехнической лаборатории</a></li>
+                                                <li><a href="#">Кондиционеры</a></li>
+                                                <li><a href="#">Страхование</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                                <li><a href="#">Формы договоров</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Согласие на обработку персональных данных</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Бизнесу</a>
+                            <ul>
+                                <li><a href="#">Тарифы</a></li>
+                                <li><a href="#">Товары и услуги</a></li>
+                                <li><a href="#">Вопросы и ответы</a></li>
+                                <li><a href="#">Формы договоров</a></li>
+                                <li><a href="#">Нормативные документы</a></li>
+                                <li><a href="#">Информация об изменениях в законодательстве</a></li>
+                                <li><a href="#">Электронный документооборот</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Журналистам</a>
+                            <ul>
+                                <li><a href="#">Новости</a></li>
+                                <li><a href="#">Видеогалерея</a></li>
+                                <li><a href="#">Фотогалерея</a></li>
+                                <li><a href="#">Журнал</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Региональный проект</a></li>
+                    </ul>
+                </div>
+
+                <footer>
+                    <div class="container">
+
+                        <div class="footer-logo"><img src="images/footer-logo-region.png" alt="" /></div>
+
+                        <div class="footer-menu">
+                            <ul>
+                                <li>
+                                    <a href="#">О компании</a>
+                                    <ul>
+                                        <li><a href="#">Общая информация</a></li>
+                                        <li><a href="#">Руководство</a></li>
+                                        <li><a href="#">Банковские реквизиты</a></li>
+                                        <li><a href="#">Раскрытие информации</a></li>
+                                        <li><a href="#">Противодействие коррупции</a></li>
+                                        <li><a href="#">Стандарты обслуживания</a></li>
+                                        <li><a href="#">Кадровая политика</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Частным лицам</a>
+                                    <ul>
+                                        <li><a href="#">Тарифы</a></li>
+                                        <li><a href="#">Товары и услуги</a></li>
+                                        <li><a href="#">Вопросы и ответы</a></li>
+                                        <li><a href="#">Формы договоров</a></li>
+                                        <li><a href="#">Нормативные документы</a></li>
+                                        <li><a href="#">Согласие на обработку персональных данных</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Бизнесу</a>
+                                    <ul>
+                                        <li><a href="#">Тарифы</a></li>
+                                        <li><a href="#">Товары и услуги</a></li>
+                                        <li><a href="#">Вопросы и ответы</a></li>
+                                        <li><a href="#">Формы договоров</a></li>
+                                        <li><a href="#">Нормативные документы</a></li>
+                                        <li><a href="#">Информация об изменениях в законодательстве</a></li>
+                                        <li><a href="#">Электронный документооборот</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>
+                                    <a href="#">Журналистам</a>
+                                    <ul>
+                                        <li><a href="#">Новости</a></li>
+                                        <li><a href="#">Видеогалерея</a></li>
+                                        <li><a href="#">Фотогалерея</a></li>
+                                        <li><a href="#">Журнал</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Региональный проект</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-contacts">
+                            <div class="footer-phone"><div class="footer-phone-title">Горячая линия в Абакане</div><a href="tel:+79876543210">+7 987 654 32 10</a></div>
+                            <div class="footer-btn"><a href="windows/feedback.html" class="window-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.51 3L1.5 10L16.5 12L1.5 14L1.51 21L22.5 12L1.51 3Z" /></svg>Написать сообщение</a></div>
+                            <div class="footer-btn"><a href="#">Интернет-магазин</a></div>
+                            <div class="footer-menu-link"><a href="#"><div class="footer-menu-link-icon"></div>Меню</a></div>
+                            <div class="footer-mobile">
+                                <div class="footer-mobile-title">Наше мобильное приложение</div>
+                                <div class="footer-mobile-links">
+                                    <a href="#"><img src="images/footer-mobile-appstore.png" alt="" /></a>
+                                    <a href="#"><img src="images/footer-mobile-googleplay.png" alt="" /></a>
+                                </div>
+                            </div>
+                            <div class="footer-social">
+                                <a href="#" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM16.5297 22.7538H15.2745C15.2745 22.7538 12.5048 22.9209 10.0659 20.3774C7.406 17.6032 5.05687 12.0981 5.05687 12.0981C5.05687 12.0981 4.92145 11.7372 5.06855 11.5627C5.23391 11.3665 5.68435 11.3539 5.68435 11.3539L8.68492 11.3342C8.68492 11.3342 8.96772 11.3816 9.17014 11.5304C9.33692 11.6532 9.43042 11.8828 9.43042 11.8828C9.43042 11.8828 9.91536 13.1113 10.5577 14.2227C11.8112 16.3924 12.3951 16.867 12.8207 16.6345C13.4408 16.2956 13.2549 13.5673 13.2549 13.5673C13.2549 13.5673 13.2663 12.577 12.9427 12.1361C12.6921 11.7943 12.2195 11.6946 12.0108 11.6666C11.842 11.6441 12.1191 11.2514 12.4783 11.0752C13.0183 10.8102 13.9719 10.7951 15.0986 10.8068C15.9764 10.8157 16.229 10.8705 16.5722 10.9536C17.3686 11.1462 17.3437 11.7633 17.2901 13.0949C17.2741 13.4928 17.2556 13.9545 17.2556 14.4877C17.2556 14.6077 17.2521 14.7355 17.2485 14.8671C17.2299 15.5491 17.2086 16.3298 17.6567 16.62C17.8865 16.7685 18.4487 16.6423 19.8547 14.2507C20.5213 13.1173 21.021 11.7846 21.021 11.7846C21.021 11.7846 21.1302 11.547 21.2998 11.445C21.4735 11.3411 21.7075 11.3731 21.7075 11.3731L24.8652 11.3534C24.8652 11.3534 25.8139 11.24 25.9676 11.6689C26.1287 12.1192 25.613 13.1707 24.3229 14.8929C23.0977 16.5286 22.5024 17.1297 22.5585 17.6622C22.5994 18.0503 22.9863 18.402 23.7277 19.0912C25.282 20.5364 25.6962 21.2952 25.7947 21.4755C25.8026 21.4901 25.8085 21.5009 25.8128 21.5079C26.5084 22.6633 25.0414 22.7538 25.0414 22.7538L22.2369 22.793C22.2369 22.793 21.6343 22.9126 20.8411 22.3669C20.4264 22.0818 20.0209 21.6161 19.6345 21.1724C19.0439 20.4942 18.498 19.8674 18.0321 20.0153C17.2504 20.2637 17.2749 21.9508 17.2749 21.9508C17.2749 21.9508 17.2806 22.3112 17.1025 22.5031C16.9089 22.7121 16.5297 22.7538 16.5297 22.7538Z" /></svg></a>
+                                <a href="#" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM12.4822 7.51821C13.3925 7.47679 13.6833 7.46665 16.0009 7.46665H15.9982C18.3164 7.46665 18.6062 7.47679 19.5164 7.51821C20.4249 7.55981 21.0454 7.70363 21.5894 7.91466C22.1511 8.13244 22.6258 8.424 23.1005 8.89867C23.5752 9.37298 23.8667 9.84908 24.0854 10.4103C24.2952 10.9529 24.4392 11.573 24.4818 12.4815C24.5227 13.3917 24.5334 13.6825 24.5334 16.0001C24.5334 18.3176 24.5227 18.6077 24.4818 19.518C24.4392 20.4261 24.2952 21.0464 24.0854 21.5891C23.8667 22.1502 23.5752 22.6263 23.1005 23.1006C22.6263 23.5753 22.151 23.8675 21.5899 24.0855C21.047 24.2965 20.4261 24.4403 19.5177 24.4819C18.6075 24.5234 18.3175 24.5335 15.9998 24.5335C13.6824 24.5335 13.3918 24.5234 12.4815 24.4819C11.5733 24.4403 10.953 24.2965 10.41 24.0855C9.84915 23.8675 9.37305 23.5753 8.89892 23.1006C8.42442 22.6263 8.13286 22.1502 7.91473 21.5889C7.70388 21.0463 7.56006 20.4263 7.51828 19.5178C7.47703 18.6076 7.46672 18.3176 7.46672 16.0001C7.46672 13.6825 7.47739 13.3915 7.5181 12.4813C7.55899 11.5732 7.70299 10.9529 7.91455 10.4101C8.13322 9.84908 8.42478 9.37298 8.89945 8.89867C9.37376 8.42417 9.84986 8.13262 10.4111 7.91466C10.9537 7.70363 11.5738 7.55981 12.4822 7.51821Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2355 9.00409C15.3841 9.00385 15.544 9.00393 15.7166 9.004L16.001 9.00409C18.2794 9.00409 18.5495 9.01226 19.4492 9.05315C20.2812 9.0912 20.7328 9.23022 21.0336 9.34702C21.4318 9.50169 21.7157 9.68658 22.0142 9.98525C22.3129 10.2839 22.4978 10.5684 22.6528 10.9666C22.7696 11.267 22.9088 11.7186 22.9467 12.5506C22.9876 13.4502 22.9964 13.7204 22.9964 15.9978C22.9964 18.2751 22.9876 18.5453 22.9467 19.4449C22.9086 20.2769 22.7696 20.7285 22.6528 21.0289C22.4981 21.4271 22.3129 21.7107 22.0142 22.0092C21.7155 22.3079 21.432 22.4928 21.0336 22.6474C20.7331 22.7648 20.2812 22.9034 19.4492 22.9415C18.5496 22.9824 18.2794 22.9913 16.001 22.9913C13.7224 22.9913 13.4524 22.9824 12.5528 22.9415C11.7208 22.9031 11.2692 22.7641 10.9682 22.6473C10.57 22.4926 10.2856 22.3077 9.98689 22.009C9.68822 21.7104 9.50333 21.4266 9.34831 21.0282C9.23151 20.7278 9.09231 20.2762 9.05444 19.4442C9.01355 18.5446 9.00537 18.2744 9.00537 15.9956C9.00537 13.7168 9.01355 13.448 9.05444 12.5485C9.09248 11.7165 9.23151 11.2649 9.34831 10.9641C9.50298 10.5659 9.68822 10.2814 9.98689 9.98276C10.2856 9.68409 10.57 9.4992 10.9682 9.34418C11.269 9.22684 11.7208 9.08818 12.5528 9.04995C13.34 9.0144 13.6451 9.00373 15.2355 9.00195V9.00409ZM20.5561 10.421C19.9907 10.421 19.5321 10.8791 19.5321 11.4446C19.5321 12.01 19.9907 12.4686 20.5561 12.4686C21.1214 12.4686 21.5801 12.01 21.5801 11.4446C21.5801 10.8793 21.1214 10.4206 20.5561 10.4206V10.421ZM11.6188 15.9997C11.6188 13.5797 13.5808 11.6175 16.0009 11.6175C18.421 11.6175 20.3826 13.5796 20.3826 15.9997C20.3826 18.4198 18.4212 20.3811 16.001 20.3811C13.5809 20.3811 11.6188 18.4198 11.6188 15.9997Z" /><path d="M16.0007 13.1562C17.5716 13.1562 18.8452 14.4297 18.8452 16.0007C18.8452 17.5716 17.5716 18.8452 16.0007 18.8452C14.4297 18.8452 13.1562 17.5716 13.1562 16.0007C13.1562 14.4297 14.4297 13.1562 16.0007 13.1562Z" /></svg></a>
+                                <a href="#" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 16C32 7.1625 24.8375 0 16 0C7.1625 0 0 7.1625 0 16C0 23.9875 5.85 30.6062 13.5 31.8062V20.625H9.4375V16H13.5V12.475C13.5 8.46563 15.8875 6.25 19.5438 6.25C21.2938 6.25 23.125 6.5625 23.125 6.5625V10.5H21.1063C19.1188 10.5 18.5 11.7344 18.5 13V16H22.9375L22.2281 20.625H18.5V31.8062C26.15 30.6062 32 23.9875 32 16Z" /></svg></a>
+                            </div>
+                        </div>
+
+                        <div class="footer-bottom">
+                            <div class="footer-copyrights">© 2019, АО «Атомэнергосбыт». Все права защищены</div>
+                            <div class="footer-developer">Сделано в <a href="http://7pap.ru" target="_blank">студии СЕМЬ ПАП!</a></div>
+                        </div>
+
+                        <a href="#" class="up-link"></a>
+
+                    </div>
+                </footer>
+            </div>
+            <!-- mobile menu END -->
+
+            <div class="slider">
+                <div class="slider-item">
+                    <div class="slider-item-inner">
+                        <div class="slider-item-photo"><img src="files/slider-2.jpg" alt="" /></div>
+                        <div class="slider-item-text">
+                            <h2>Личный кабинет</h2>
+                            <ul>
+                                <li>Оплачивайте квитанции без комиссии</li>
+                                <li>Передавайте показания счетчиков не выходя из дома</li>
+                                <li>Контролируйте историю платежей</li>
+                            </ul>
+                            <div class="slider-item-btn"><a href="windows/cabinet-kursk.html" class="window-link">Войти в кабинет</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-item-inner">
+                        <div class="slider-item-photo"><img src="files/slider-1.jpg" alt="" /></div>
+                        <div class="slider-item-text">
+                            <h2>АтомЭнергоСбыт -<br /> гарантирующий поставщик электроэнергии в Курской, Мурманской, Смоленской и Тверской областях</h2>
+                            <div class="slider-item-btn"><a href="windows/cabinet-kursk.html" class="window-link">Войти в кабинет</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-item-inner">
+                        <div class="slider-item-photo"><img src="files/slider-1.jpg" alt="" /></div>
+                        <div class="slider-item-text">
+                            <h2>АтомЭнергоСбыт -<br /> гарантирующий поставщик электроэнергии в Курской, Мурманской, Смоленской и Тверской областях</h2>
+                            <div class="slider-item-btn"><a href="windows/cabinet-kursk.html" class="window-link">Войти в кабинет</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-item-inner">
+                        <div class="slider-item-photo"><img src="files/slider-1.jpg" alt="" /></div>
+                        <div class="slider-item-text">
+                            <h2>АтомЭнергоСбыт -<br /> гарантирующий поставщик электроэнергии в Курской, Мурманской, Смоленской и Тверской областях</h2>
+                            <div class="slider-item-btn"><a href="windows/cabinet-kursk.html" class="window-link">Войти в кабинет</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-item-inner">
+                        <div class="slider-item-photo"><img src="files/slider-1.jpg" alt="" /></div>
+                        <div class="slider-item-text">
+                            <h2>АтомЭнергоСбыт -<br /> гарантирующий поставщик электроэнергии в Курской, Мурманской, Смоленской и Тверской областях</h2>
+                            <div class="slider-item-btn"><a href="windows/cabinet-kursk.html" class="window-link">Войти в кабинет</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="content">
+                <div class="container">
+
+                    <div class="main-menu">
+                        <ul>
+                            <li class="active"><a href="#">Филиалы</a></li>
+                            <li><a href="#">Новости</a></li>
+                            <li><a href="#">Сервисы</a></li>
+                            <li><a href="#">Проекты</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- main container -->
+                    <div class="main-container">
+                        <div class="main-tab active">
+
+                            <div class="main-filials">
+                                <div class="main-filial">
+                                    <div class="main-filial-container" style="background-image:url(files/main-filial-1.jpg)">
+                                        <div class="main-filial-bg"></div>
+                                        <div class="main-filial-title"><a href="#">Курск Атомэнергосбыт</a></div>
+                                        <div class="main-filial-menu">
+                                            <ul>
+                                                <li><a href="#">Частным лицам</a></li>
+                                                <li><a href="#">Бизнесу</a></li>
+                                                <li><a href="#">О филиале</a></li>
+                                                <li><a href="#">Пресс-центр</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-filial">
+                                    <div class="main-filial-container" style="background-image:url(files/main-filial-3.jpg)">
+                                        <div class="main-filial-bg"></div>
+                                        <div class="main-filial-title"><a href="#">Кол Атомэнергосбыт</a></div>
+                                        <div class="main-filial-menu">
+                                            <ul>
+                                                <li><a href="#">Частным лицам</a></li>
+                                                <li><a href="#">Бизнесу</a></li>
+                                                <li><a href="#">О филиале</a></li>
+                                                <li><a href="#">Пресс-центр</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-filial">
+                                    <div class="main-filial-container" style="background-image:url(files/main-filial-3.jpg)">
+                                        <div class="main-filial-bg"></div>
+                                        <div class="main-filial-title"><a href="#">Смоленск Атомэнергосбыт</a></div>
+                                        <div class="main-filial-menu">
+                                            <ul>
+                                                <li><a href="#">Частным лицам</a></li>
+                                                <li><a href="#">Бизнесу</a></li>
+                                                <li><a href="#">О филиале</a></li>
+                                                <li><a href="#">Пресс-центр</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-filial">
+                                    <div class="main-filial-container" style="background-image:url(files/main-filial-4.jpg)">
+                                        <div class="main-filial-bg"></div>
+                                        <div class="main-filial-title"><a href="#">Тверь Атомэнергосбыт</a></div>
+                                        <div class="main-filial-menu">
+                                            <ul>
+                                                <li><a href="#">Частным лицам</a></li>
+                                                <li><a href="#">Бизнесу</a></li>
+                                                <li><a href="#">О филиале</a></li>
+                                                <li><a href="#">Пресс-центр</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="main-filial">
+                                    <div class="main-filial-container" style="background-image:url(files/main-filial-5.jpg)">
+                                        <div class="main-filial-bg"></div>
+                                        <div class="main-filial-title"><a href="#">Абакан Атомэнергосбыт</a></div>
+                                        <div class="main-filial-menu">
+                                            <ul>
+                                                <li><a href="#">Частным лицам</a></li>
+                                                <li><a href="#">Бизнесу</a></li>
+                                                <li><a href="#">О филиале</a></li>
+                                                <li><a href="#">Пресс-центр</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="main-tab">
+                            <!-- galleries -->
+                            <div class="galleries">
+
+                                <div class="galleries-item galleries-item-gray">
+                                    <a href="#" class="galleries-item-container">
+                                        <div class="galleries-item-bg"></div>
+                                        <div class="galleries-item-type">Курск</div>
+                                        <div class="galleries-item-title">«АтомЭнергоСбыт» поздравляет Курск с 987-летием</div>
+                                        <div class="galleries-item-date">25.09.2019</div>
+                                        <div class="galleries-item-detail">Подробнее</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item">
+                                    <a href="#" class="galleries-item-container" style="background-image:url(files/galleries-08.jpg)">
+                                        <div class="galleries-item-bg"></div>
+                                        <div class="galleries-item-type">Общие</div>
+                                        <div class="galleries-item-title">Новые цифровые возможности Атомэнергосбыт: Голосовой помощник принимает ваши показания</div>
+                                        <div class="galleries-item-date">25.09.2019</div>
+                                        <div class="galleries-item-detail">Подробнее</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item galleries-item-gray">
+                                    <a href="#" class="galleries-item-container">
+                                        <div class="galleries-item-bg"></div>
+                                        <div class="galleries-item-type">Смоленск</div>
+                                        <div class="galleries-item-title">АтомЭнергоСбыт: цифровые технологии для жителей Смоленска</div>
+                                        <div class="galleries-item-date">25.09.2019</div>
+                                        <div class="galleries-item-detail">Подробнее</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item galleries-item-all">
+                                    <div class="galleries-item-container">
+                                        <div class="galleries-item-title"><a href="#">Все новости</a></div>
+                                        <div class="galleries-item-menu">
+                                            <ul>
+                                                <li><a href="#">Общие</a></li>
+                                                <li><a href="#">В Курске</a></li>
+                                                <li><a href="#">В Мурманске</a></li>
+                                                <li><a href="#">В Смоленске</a></li>
+                                                <li><a href="#">В Твери</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- galleries END -->
+                        </div>
+
+                        <div class="main-tab">
+                            <!-- galleries -->
+                            <div class="galleries projects">
+
+                                <div class="galleries-item galleries-item-with-bg">
+                                    <a href="#" class="galleries-item-container" style="background-image:url(files/galleries-08.jpg)">
+                                        <div class="galleries-item-bg"></div>
+                                        <div class="galleries-item-type">Курск</div>
+                                        <div class="galleries-item-title">Сервис 1</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item">
+                                    <a href="#" class="galleries-item-container">
+                                        <div class="galleries-item-type">Общие</div>
+                                        <div class="galleries-item-title">Сервис 2</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item">
+                                    <a href="#" class="galleries-item-container">
+                                        <div class="galleries-item-type">Смоленск</div>
+                                        <div class="galleries-item-title">Сервис 3</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item galleries-item-all">
+                                    <div class="galleries-item-container">
+                                        <div class="galleries-item-title"><a href="#">Все сервисы</a></div>
+                                        <div class="galleries-item-menu">
+                                            <ul>
+                                                <li><a href="#">Общие</a></li>
+                                                <li><a href="#">В Курске</a></li>
+                                                <li><a href="#">В Мурманске</a></li>
+                                                <li><a href="#">В Смоленске</a></li>
+                                                <li><a href="#">В Твери</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- galleries END -->
+                        </div>
+
+                        <div class="main-tab">
+                            <!-- galleries -->
+                            <div class="galleries projects">
+
+                                <div class="galleries-item galleries-item-with-bg">
+                                    <a href="#" class="galleries-item-container" style="background-image:url(files/galleries-08.jpg)">
+                                        <div class="galleries-item-bg"></div>
+                                        <div class="galleries-item-type">Курск</div>
+                                        <div class="galleries-item-title">Проект Альфа</div>
+                                        <div class="galleries-item-anonce">Проект Альфа - главный проект компании. Если бы он был второстепенным, мы бы назвали его Бета или Гамма.</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item">
+                                    <a href="#" class="galleries-item-container">
+                                        <div class="galleries-item-type">Общие</div>
+                                        <div class="galleries-item-title">Проект Альфа</div>
+                                        <div class="galleries-item-anonce">Проект Альфа - главный проект компании. Если бы он был второстепенным, мы бы назвали его Бета или Гамма.</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item">
+                                    <a href="#" class="galleries-item-container">
+                                        <div class="galleries-item-type">Смоленск</div>
+                                        <div class="galleries-item-title">Проект Альфа</div>
+                                        <div class="galleries-item-anonce">Проект Альфа - главный проект компании. Если бы он был второстепенным, мы бы назвали его Бета или Гамма.</div>
+                                    </a>
+                                </div>
+
+                                <div class="galleries-item galleries-item-all">
+                                    <div class="galleries-item-container">
+                                        <div class="galleries-item-title"><a href="#">Все проекты</a></div>
+                                        <div class="galleries-item-menu">
+                                            <ul>
+                                                <li><a href="#">Общие</a></li>
+                                                <li><a href="#">В Курске</a></li>
+                                                <li><a href="#">В Мурманске</a></li>
+                                                <li><a href="#">В Смоленске</a></li>
+                                                <li><a href="#">В Твери</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- galleries END -->
+                        </div>
+                    </div>
+                    <!-- main container END -->
+
+                    <!-- main info -->
+                    <div class="main-info">
+                        <div class="main-info-title">Цифры и факты</div>
+                        <div class="main-info-container">
+                            <div class="main-region-info-big-value">5000 000 000 <sup>кВт/ч</sup></div>
+                            <div class="main-region-info-big-text">энергии поставляем ежегодно</div>
+                            <div class="main-region-info-container main-region-info-container-abakan">
+
+                                <!-- main region info map -->
+                                <div class="main-region-info-map">
+                                    <svg width="371" height="542" viewBox="0 0 371 542" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect opacity="0.9" width="358.797" height="533.786" transform="matrix(0.999735 0.0230099 -0.0230396 0.999735 12.2983 0.0996094)" fill="url(#pattern0)"/>
+                                        <path d="M145.191 12.3499L159.455 6.66052L178.755 64.3968L178.858 64.7054L179.182 64.736C212.075 67.8451 230.602 67.0526 264.473 63.2612L287.883 77.8504L273.139 104.314L272.996 104.569L273.15 104.819L301.551 151.025C307.392 188.573 311.197 207.246 319.5 233.058V253.577L283.835 271.358L283.559 271.496V271.805V300.039L270.246 322.164L231.481 335.544L231.308 335.604L231.214 335.761L207.415 375.808L176.281 372.851L175.922 372.817L175.776 373.148L154.939 420.641L84.8723 422.128L84.7293 422.131L84.6095 422.209L41.5695 450.327L13.5506 413.565L26.8827 367.775C49.7248 360.755 62.5174 356.182 85.0726 346.932L85.1521 346.9L85.2162 346.843L128.645 308.017L128.891 307.798L128.786 307.486L121.346 285.228L128.796 257L128.826 256.886L128.802 256.77L121.364 221.173L148.16 190L148.215 189.936L148.246 189.858L164.719 148.046L164.912 147.554L164.411 147.388L124.248 134.038L119.867 113.651L151.158 76.5067L151.355 76.2733L151.237 75.9918L136.332 40.3219L145.191 12.3499Z" fill="#3996D1" stroke="white"/>
+                                        <g class="main-region-info-map-point">
+                                            <circle cx="273" cy="279" r="4" fill="white"/>
+                                            <circle opacity="0.2" cx="273" cy="279" r="25" fill="white"/>
+                                            <circle opacity="0.3" cx="273" cy="279" r="13" fill="white"/>
+                                        </g>
+                                        <g class="main-region-info-map-point">
+                                            <circle cx="257" cy="263" r="4" fill="white"/>
+                                            <circle opacity="0.2" cx="257" cy="263" r="25" fill="white"/>
+                                            <circle opacity="0.3" cx="257" cy="263" r="13" fill="white"/>
+                                        </g>
+                                        <g class="main-region-info-map-point">
+                                            <circle cx="257" cy="280" r="4" fill="white"/>
+                                            <circle opacity="0.2" cx="257" cy="280" r="25" fill="white"/>
+                                            <circle opacity="0.3" cx="257" cy="280" r="13" fill="white"/>
+                                        </g>
+                                        <g class="main-region-info-map-point">
+                                            <circle cx="135" cy="246" r="4" fill="white"/>
+                                            <circle opacity="0.2" cx="135" cy="246" r="25" fill="white"/>
+                                            <circle opacity="0.3" cx="135" cy="246" r="13" fill="white"/>
+                                        </g>
+                                        <g class="main-region-info-map-point">
+                                            <circle cx="93" cy="374" r="4" fill="white"/>
+                                            <circle opacity="0.2" cx="93" cy="374" r="25" fill="white"/>
+                                            <circle opacity="0.3" cx="93" cy="374" r="13" fill="white"/>
+                                        </g>
+                                        <defs>
+                                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                <use xlink:href="#image0_786_46387" transform="translate(-0.483124 -0.138106) scale(0.00375715 0.00252383)"/>
+                                            </pattern>
+                                            <image id="image0_786_46387" width="512" height="512" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAACXBIWXMAAAsSAAALEgHS3X78AAAgAElEQVR4nOzdd3Rc2X0n+O99rwJyzgAB5thkJ3az2VkdlC21pG7LUmvlWU2wZ47OWc+OvbbneObIZzzBHq/DymNb9tgzO2d2x57jo12PvZZtZbmbnchustmMYARBEEChqlC56oV7948KKACFWOFV+H7Oodn1KryfDLDu9913A0BEREQNRyilNAA6gJbMHx1AHEAYgL3G+1Sx5y3y/bWo2P+fVVKlfj7b/f9JI/7+EDmplr6/qsVWv6fK8X2oVrxm2WOhlMp/QttEEfxFICIiqm1Cy3+A5Y37yoZeFThGREREtUe5NnpBRcogIiKiitI2fgkRERHVm7UCAK/8iYiI6lihAMDGn4iIqM7ljwFgw09ERNQgXGDDT0RE1HA4CJCIiKgBMQAQERE1IAYAIiKiBsQAQERE1IAYAIiIiBoQAwAREVEDYgAgIiJqQAwAREREDYgBgIiIqAExABARETUgBgAiIqIGxABARETUgBgAiIiIGhADABERUQNiACAiImpADABEREQNiAGAiIioATEAEBERNSAGACIiogbEAEBERNSAGACIiIgaEAMAERFRA2IAICIiakAMAERERA2IAYCIiKgBMQAQERE1IAYAIiKiBsQAQERE1IAYAIiIiBoQAwAREVEDYgAgIiJqQAwAREREDYgBgIiIqAExABARETUgBgAiIqIGxABARETUgBgAiIiIGhADABERUQNiACAiImpADABEREQNiAGAiIioATEAEBERNSAGACIiogbkcroAIto0kfffyrEqiKgusAeAqHaozB+B5WGAiGjLGACIaocAMHEXOJEEWsAQQERF4C0AouqSbdTzu/g1AAdv2Hj55gI+LhVad/TgVw568KcO1EdEdYIBgKg6FGr4e5LAA9eTeGk2hE9YEjsA6ABEKI6fhAd/CyBY8UqJqC4wABA5T2Cp4RcA9swBL92J4KVgDIelQnfmOZn544ok8WAIONYJ/NCJgomo9jEAEDkrv/GfuAP85O0AvpAwcECqVaP+BdK3A5St0H/PwHOdHgYAItoeBgAi54kp4NnJOfwbW+K4Wv/fZXbgrh6M4UV48FvgbQAi2gbOAiBylgLQed2Hf25JPFag8c+/NbBs1H8shSN+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"/>
+                                        </defs>
+                                    </svg>
+                                    <div class="main-region-info-map-info">
+                                        <div class="main-region-info-map-info-value">15</div>
+                                        <div class="main-region-info-map-info-text">центров<br /> обслуживания</div>
+                                    </div>
+                                </div>
+                                <!-- main region info map END -->
+
+                                <div class="main-region-info-content">
+                                    <div class="main-region-info-content-inner">
+                                        <div class="main-region-info-item">
+                                            <div class="main-region-info-item-icon"><img src="images/region-map-icon-1.svg" alt="" /></div>
+                                            <div class="main-region-info-item-text"><span>160 000 +</span> бытовых потребителей</div>
+                                        </div>
+                                        <div class="main-region-info-item">
+                                            <div class="main-region-info-item-icon"><img src="images/region-map-icon-2.svg" alt="" /></div>
+                                            <div class="main-region-info-item-text"><span>6 000 +</span> предприятий</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- main info END -->
+
+                    <!-- main contacts -->
+                    <div class="main-contacts">
+                        <div class="main-info-title">Контакты</div>
+
+                        <!-- main contacts map -->
+                        <div class="main-contacts-map">
+
+                            <!-- main contacts info -->
+                            <div class="main-contacts-info">
+
+                            </div>
+                            <!-- main contacts info END -->
+
+                            <div class="main-contacts-map-container">
+                                <div class="main-contacts-map-inner" id="map"></div>
+                                <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+                                <script>
+                                    var pointers = [
+                                                    {
+                                                        'coords'    : [51.698579643245, 36.161697506903],
+                                                        'title'     : 'Центральное отделение',
+                                                        'address'   : '305023, г.Курск, ул. Энгельса, д.134',
+                                                        'phone'     : '(4712)22-70-34',
+                                                        'main'      : true,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [52.352970486854, 35.344777107239],
+                                                        'title'     : 'Железногорский участок, Северного отделения',
+                                                        'address'   : '307179, Курская обл., г.Железногорск, ул. Ленина д.80/1',
+                                                        'phone'     : '(47148)5-17-20',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [52.092163907073, 35.856735706329],
+                                                        'title'     : 'Фатежский участок, Северного отделения',
+                                                        'address'   : '307100, Курская обл.,г.Фатеж, ул.К.Маркса, д.62А',
+                                                        'phone'     : '(47144)2-12-95',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.924499232132, 34.563535451889],
+                                                        'title'     : 'Хомутовский участок, Северного отделения',
+                                                        'address'   : '307540, Курская обл., п.Хомутовка, ул. Советская д.19',
+                                                        'phone'     : '(47137)2-11-35',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [52.126788319257, 35.081024765968],
+                                                        'title'     : 'Дмитриевский участок, Северного отделения',
+                                                        'address'   : '307500, Курская обл., г. Дмитриев-Льговский, ул. Пролетарская, д.10',
+                                                        'phone'     : '(47150)2-25-58',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [52.316769329622, 36.300158500671],
+                                                        'title'     : 'Поныровский участок, Центрального отделения',
+                                                        'address'   : '306000, Курская обл., п.Поныри, ул. Маяковского д.22А',
+                                                        'phone'     : '(47135)2-10-40',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.657665406091, 35.943041145802],
+                                                        'title'     : 'Октябрьский участок, Центрального отделения',
+                                                        'address'   : '307200,Курская обл., Октябрьский район, п.Прямицино, ул. Октябрьская д.138',
+                                                        'phone'     : '(47142)2-15-23',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.419536345417, 36.117060184479],
+                                                        'title'     : 'Медвенский участок, Центрального отделения',
+                                                        'address'   : '307030, Курская обл., Медвенский район, п.Медвенка, ул. Советская д.25',
+                                                        'phone'     : '(47146)4-18-20',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [52.083303751766, 36.37659072876],
+                                                        'title'     : 'Золотухинский участок, Центрального отделения',
+                                                        'address'   : '306020, Курская обл., Золотухинский район, п.Золотухино, ул. Кирова, д. 17',
+                                                        'phone'     : '(47151)2-16-90',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.889736100064, 37.257610559464],
+                                                        'title'     : 'Черемисиновский участок, Восточного отделения',
+                                                        'address'   : '306440, Курская область, Черемисиновский район, п.Черемисиново, ул. Октябрьская д.42',
+                                                        'phone'     : '(47159)2-17-39',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.623012435108, 37.122631072998],
+                                                        'title'     : 'Тимский участок, Восточного отделения',
+                                                        'address'   : '307060, Курская обл., Тимский район, п.Тим, ул. К.Маркса, д.14А',
+                                                        'phone'     : '(47153)2-32-64',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.850148061162, 37.729539871216],
+                                                        'title'     : 'Советский участок, Восточного отделения',
+                                                        'address'   : '306601, Курская обл., Советский район, п.Кшенский, ул.Ленина, д.57',
+                                                        'phone'     : '(47158)2-12-55',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.454033652434, 37.125334739685],
+                                                        'title'     : 'Мантуровский участок, Восточного отделения',
+                                                        'address'   : '307000, Курская обл., с.Мантурово, ул.Ленина, д.4А',
+                                                        'phone'     : '(47155)2-16-95',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.52214905887, 38.034775257111],
+                                                        'title'     : 'Горшеченский участок, Восточного отделения',
+                                                        'address'   : '306800, Курская обл., п.Горшечное, ул.Ворошилова, д.7',
+                                                        'phone'     : '(47133)2-25-17',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.211252308876, 36.27715587616],
+                                                        'title'     : 'Обоянский участок, Южного отделеня',
+                                                        'address'   : '306230, Курская обл., г. Обоянь, ул. Ленина д. 70А',
+                                                        'phone'     : '(47141)2-21-86',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.207790818801, 36.272810697555],
+                                                        'title'     : 'Южное отделение',
+                                                        'address'   : '306230, Курская обл., г.Обоянь, ул.Ленина 70А',
+                                                        'phone'     : '(47141)2-37-02',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.056286340128, 35.709364414215],
+                                                        'title'     : 'Беловский участок, Южного отделения',
+                                                        'address'   : '307910, Курская обл., сл.  Белая, ул. 1 мая, д. 2Б',
+                                                        'phone'     : '(47141)2-33-58',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.332569062144, 35.49738407135],
+                                                        'title'     : 'Большесолдатский участок, Южного отделения',
+                                                        'address'   : '307850, Курская обл., с.Большесолдатское, ул.Олимпийская, д.1А',
+                                                        'phone'     : '(47136)2-16-64',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.83999370806, 35.289716720581],
+                                                        'title'     : 'Конышевский участок, Западного отделения',
+                                                        'address'   : '307620, Курская обл., п.Конышевака, ул.Ленина д.43',
+                                                        'phone'     : '(47156)2-16-98',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.336932745271, 34.642939567566],
+                                                        'title'     : 'Глушковский участок, Западного отделения',
+                                                        'address'   : '307450, Курская обл., п.Глушково, ул.Ленина, д.92',
+                                                        'phone'     : '(47132)2-11-73',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.688374503008, 35.274159908295],
+                                                        'title'     : 'Льговский участок',
+                                                        'address'   : '307750, Курская обл., г.Льгов, К. Маркса, д.34',
+                                                        'phone'     : '(47140)2-15-93',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.193491772225, 35.27547955513],
+                                                        'title'     : 'Суджанский участок, Южного отделения',
+                                                        'address'   : '307800, Курская обл., г. Суджа, ул.Щепкина, д.22',
+                                                        'phone'     : '(47143)2-22-60',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    },
+
+                                                    {
+                                                        'coords'    : [51.687390112355, 35.272775888443],
+                                                        'title'     : 'Западное отделение',
+                                                        'address'   : '307750, Курская обл., г.Льгов, ул.К.Маркса, д.42/2',
+                                                        'phone'     : '(47140)2-23-17',
+                                                        'main'      : false,
+                                                        'email'     : 'info@murmansk.atomsbt.ru',
+                                                        'link'      : 'contacts.html',
+                                                        'photo'     : 'files/main-contacts-info.jpg'
+                                                    }
+                                    ];
+
+                                    var iconMain = 'images/map-icon-main.svg';
+                                    var iconOffice = 'images/map-icon-office.svg';
+                                    var coords = [55.755814, 37.617635]
+
+                                    ymaps.ready(init);
+
+                                    var myMap;
+
+                                    function init() {
+                                        myMap = new ymaps.Map('map', {
+                                            center: coords,
+                                            zoom: 7,
+                                            controls: []
+                                        });
+
+                                        myMap.controls.add(new ymaps.control.ZoomControl({options: { position: { right: 10, top: 50 }}}));
+                                        myMap.controls.add('zoomControl');
+                                        myMap.behaviors.disable('scrollZoom');
+
+                                        createRegionContactsMap();
+                                    }
+
+                                </script>
+                            </div>
+                        </div>
+                        <!-- main contacts map END -->
+
+                    </div>
+                    <!-- main contacts END -->
+
+                </div>
+            </div>
+            <!-- content END -->
+
+            <footer>
+                <div class="container">
+
+                    <div class="footer-logo"><img src="images/footer-logo-region.png" alt="" /></div>
+
+                    <div class="footer-menu">
+                        <ul>
+                            <li>
+                                <a href="#">О компании</a>
+                                <ul>
+                                    <li><a href="#">Общая информация</a></li>
+                                    <li><a href="#">Руководство</a></li>
+                                    <li><a href="#">Банковские реквизиты</a></li>
+                                    <li><a href="#">Раскрытие информации</a></li>
+                                    <li><a href="#">Противодействие коррупции</a></li>
+                                    <li><a href="#">Стандарты обслуживания</a></li>
+                                    <li><a href="#">Кадровая политика</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <a href="#">Частным лицам</a>
+                                <ul>
+                                    <li><a href="#">Тарифы</a></li>
+                                    <li><a href="#">Товары и услуги</a></li>
+                                    <li><a href="#">Вопросы и ответы</a></li>
+                                    <li><a href="#">Формы договоров</a></li>
+                                    <li><a href="#">Нормативные документы</a></li>
+                                    <li><a href="#">Согласие на обработку персональных данных</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <a href="#">Бизнесу</a>
+                                <ul>
+                                    <li><a href="#">Тарифы</a></li>
+                                    <li><a href="#">Товары и услуги</a></li>
+                                    <li><a href="#">Вопросы и ответы</a></li>
+                                    <li><a href="#">Формы договоров</a></li>
+                                    <li><a href="#">Нормативные документы</a></li>
+                                    <li><a href="#">Информация об изменениях в законодательстве</a></li>
+                                    <li><a href="#">Электронный документооборот</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul>
+                            <li>
+                                <a href="#">Журналистам</a>
+                                <ul>
+                                    <li><a href="#">Новости</a></li>
+                                    <li><a href="#">Видеогалерея</a></li>
+                                    <li><a href="#">Фотогалерея</a></li>
+                                    <li><a href="#">Журнал</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Региональный проект</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contacts">
+                        <div class="footer-phone"><div class="footer-phone-title">Горячая линия в Мурманске</div><a href="tel:+79876543210">+7 987 654 32 10</a></div>
+                        <div class="footer-btn"><a href="windows/feedback.html" class="window-link"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.51 3L1.5 10L16.5 12L1.5 14L1.51 21L22.5 12L1.51 3Z" /></svg>Написать сообщение</a></div>
+                        <div class="footer-btn"><a href="#">Интернет-магазин</a></div>
+                        <div class="footer-menu-link"><a href="#"><div class="footer-menu-link-icon"></div>Меню</a></div>
+                        <div class="footer-mobile">
+                            <div class="footer-mobile-title">Наше мобильное приложение</div>
+                            <div class="footer-mobile-links">
+                                <a href="#"><img src="images/footer-mobile-appstore.png" alt="" /></a>
+                                <a href="#"><img src="images/footer-mobile-googleplay.png" alt="" /></a>
+                            </div>
+                        </div>
+                        <div class="footer-social">
+                            <a href="#" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32ZM16.5297 22.7538H15.2745C15.2745 22.7538 12.5048 22.9209 10.0659 20.3774C7.406 17.6032 5.05687 12.0981 5.05687 12.0981C5.05687 12.0981 4.92145 11.7372 5.06855 11.5627C5.23391 11.3665 5.68435 11.3539 5.68435 11.3539L8.68492 11.3342C8.68492 11.3342 8.96772 11.3816 9.17014 11.5304C9.33692 11.6532 9.43042 11.8828 9.43042 11.8828C9.43042 11.8828 9.91536 13.1113 10.5577 14.2227C11.8112 16.3924 12.3951 16.867 12.8207 16.6345C13.4408 16.2956 13.2549 13.5673 13.2549 13.5673C13.2549 13.5673 13.2663 12.577 12.9427 12.1361C12.6921 11.7943 12.2195 11.6946 12.0108 11.6666C11.842 11.6441 12.1191 11.2514 12.4783 11.0752C13.0183 10.8102 13.9719 10.7951 15.0986 10.8068C15.9764 10.8157 16.229 10.8705 16.5722 10.9536C17.3686 11.1462 17.3437 11.7633 17.2901 13.0949C17.2741 13.4928 17.2556 13.9545 17.2556 14.4877C17.2556 14.6077 17.2521 14.7355 17.2485 14.8671C17.2299 15.5491 17.2086 16.3298 17.6567 16.62C17.8865 16.7685 18.4487 16.6423 19.8547 14.2507C20.5213 13.1173 21.021 11.7846 21.021 11.7846C21.021 11.7846 21.1302 11.547 21.2998 11.445C21.4735 11.3411 21.7075 11.3731 21.7075 11.3731L24.8652 11.3534C24.8652 11.3534 25.8139 11.24 25.9676 11.6689C26.1287 12.1192 25.613 13.1707 24.3229 14.8929C23.0977 16.5286 22.5024 17.1297 22.5585 17.6622C22.5994 18.0503 22.9863 18.402 23.7277 19.0912C25.282 20.5364 25.6962 21.2952 25.7947 21.4755C25.8026 21.4901 25.8085 21.5009 25.8128 21.5079C26.5084 22.6633 25.0414 22.7538 25.0414 22.7538L22.2369 22.793C22.2369 22.793 21.6343 22.9126 20.8411 22.3669C20.4264 22.0818 20.0209 21.6161 19.6345 21.1724C19.0439 20.4942 18.498 19.8674 18.0321 20.0153C17.2504 20.2637 17.2749 21.9508 17.2749 21.9508C17.2749 21.9508 17.2806 22.3112 17.1025 22.5031C16.9089 22.7121 16.5297 22.7538 16.5297 22.7538Z" /></svg></a>
+                            <a href="#" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16 0C7.16344 0 0 7.16344 0 16C0 24.8366 7.16344 32 16 32C24.8366 32 32 24.8366 32 16C32 7.16344 24.8366 0 16 0ZM12.4822 7.51821C13.3925 7.47679 13.6833 7.46665 16.0009 7.46665H15.9982C18.3164 7.46665 18.6062 7.47679 19.5164 7.51821C20.4249 7.55981 21.0454 7.70363 21.5894 7.91466C22.1511 8.13244 22.6258 8.424 23.1005 8.89867C23.5752 9.37298 23.8667 9.84908 24.0854 10.4103C24.2952 10.9529 24.4392 11.573 24.4818 12.4815C24.5227 13.3917 24.5334 13.6825 24.5334 16.0001C24.5334 18.3176 24.5227 18.6077 24.4818 19.518C24.4392 20.4261 24.2952 21.0464 24.0854 21.5891C23.8667 22.1502 23.5752 22.6263 23.1005 23.1006C22.6263 23.5753 22.151 23.8675 21.5899 24.0855C21.047 24.2965 20.4261 24.4403 19.5177 24.4819C18.6075 24.5234 18.3175 24.5335 15.9998 24.5335C13.6824 24.5335 13.3918 24.5234 12.4815 24.4819C11.5733 24.4403 10.953 24.2965 10.41 24.0855C9.84915 23.8675 9.37305 23.5753 8.89892 23.1006C8.42442 22.6263 8.13286 22.1502 7.91473 21.5889C7.70388 21.0463 7.56006 20.4263 7.51828 19.5178C7.47703 18.6076 7.46672 18.3176 7.46672 16.0001C7.46672 13.6825 7.47739 13.3915 7.5181 12.4813C7.55899 11.5732 7.70299 10.9529 7.91455 10.4101C8.13322 9.84908 8.42478 9.37298 8.89945 8.89867C9.37376 8.42417 9.84986 8.13262 10.4111 7.91466C10.9537 7.70363 11.5738 7.55981 12.4822 7.51821Z" /><path fill-rule="evenodd" clip-rule="evenodd" d="M15.2355 9.00409C15.3841 9.00385 15.544 9.00393 15.7166 9.004L16.001 9.00409C18.2794 9.00409 18.5495 9.01226 19.4492 9.05315C20.2812 9.0912 20.7328 9.23022 21.0336 9.34702C21.4318 9.50169 21.7157 9.68658 22.0142 9.98525C22.3129 10.2839 22.4978 10.5684 22.6528 10.9666C22.7696 11.267 22.9088 11.7186 22.9467 12.5506C22.9876 13.4502 22.9964 13.7204 22.9964 15.9978C22.9964 18.2751 22.9876 18.5453 22.9467 19.4449C22.9086 20.2769 22.7696 20.7285 22.6528 21.0289C22.4981 21.4271 22.3129 21.7107 22.0142 22.0092C21.7155 22.3079 21.432 22.4928 21.0336 22.6474C20.7331 22.7648 20.2812 22.9034 19.4492 22.9415C18.5496 22.9824 18.2794 22.9913 16.001 22.9913C13.7224 22.9913 13.4524 22.9824 12.5528 22.9415C11.7208 22.9031 11.2692 22.7641 10.9682 22.6473C10.57 22.4926 10.2856 22.3077 9.98689 22.009C9.68822 21.7104 9.50333 21.4266 9.34831 21.0282C9.23151 20.7278 9.09231 20.2762 9.05444 19.4442C9.01355 18.5446 9.00537 18.2744 9.00537 15.9956C9.00537 13.7168 9.01355 13.448 9.05444 12.5485C9.09248 11.7165 9.23151 11.2649 9.34831 10.9641C9.50298 10.5659 9.68822 10.2814 9.98689 9.98276C10.2856 9.68409 10.57 9.4992 10.9682 9.34418C11.269 9.22684 11.7208 9.08818 12.5528 9.04995C13.34 9.0144 13.6451 9.00373 15.2355 9.00195V9.00409ZM20.5561 10.421C19.9907 10.421 19.5321 10.8791 19.5321 11.4446C19.5321 12.01 19.9907 12.4686 20.5561 12.4686C21.1214 12.4686 21.5801 12.01 21.5801 11.4446C21.5801 10.8793 21.1214 10.4206 20.5561 10.4206V10.421ZM11.6188 15.9997C11.6188 13.5797 13.5808 11.6175 16.0009 11.6175C18.421 11.6175 20.3826 13.5796 20.3826 15.9997C20.3826 18.4198 18.4212 20.3811 16.001 20.3811C13.5809 20.3811 11.6188 18.4198 11.6188 15.9997Z" /><path d="M16.0007 13.1562C17.5716 13.1562 18.8452 14.4297 18.8452 16.0007C18.8452 17.5716 17.5716 18.8452 16.0007 18.8452C14.4297 18.8452 13.1562 17.5716 13.1562 16.0007C13.1562 14.4297 14.4297 13.1562 16.0007 13.1562Z" /></svg></a>
+                            <a href="#" target="_blank"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M32 16C32 7.1625 24.8375 0 16 0C7.1625 0 0 7.1625 0 16C0 23.9875 5.85 30.6062 13.5 31.8062V20.625H9.4375V16H13.5V12.475C13.5 8.46563 15.8875 6.25 19.5438 6.25C21.2938 6.25 23.125 6.5625 23.125 6.5625V10.5H21.1063C19.1188 10.5 18.5 11.7344 18.5 13V16H22.9375L22.2281 20.625H18.5V31.8062C26.15 30.6062 32 23.9875 32 16Z" /></svg></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-bottom">
+                        <div class="footer-copyrights">© 2019, АО «Атомэнергосбыт». Все права защищены</div>
+                        <div class="footer-developer">Сделано в <a href="http://7pap.ru" target="_blank">студии СЕМЬ ПАП!</a></div>
+                    </div>
+
+                    <a href="#" class="up-link"></a>
+
+                </div>
+            </footer>
+
+        </div>
+        <!-- wrapper END -->
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/slick/slick.min.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
+        <script src="js/validation/jquery.validate.min.js"></script>
+        <script src="js/validation/messages_ru.js"></script>
+        <script src="js/fancybox/jquery.fancybox.min.js"></script>
+        <script src="js/air-datepicker/datepicker.min.js"></script>
+        <script src="js/tools.js"></script>
+
+    </body>
+</html>
